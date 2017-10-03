@@ -30,13 +30,13 @@
       <form>
         <div class='form-group'>
           <label>Title</label>
-          <input type='text' class='form-control' v-model="todo.title" >
+          <input type='text' class='form-control' v-model="todo.title">
         </div>
         <div class='form-group'>
           <label>Description</label>
-          <input type='text' class='form-control' v-model="todo.description" >
+          <input type='text' class='form-control' v-model="todo.description">
         </div>
-        <button class='btn btn-sm btn-primary save-todo-list-btn' @click="saveTodo(todo)">
+        <button type="button" class='btn btn-sm btn-primary save-todo-list-btn' @click="saveTodo(todo)">
           Save to storage
         </button>
         <button type='button' class='btn btn-sm btn-outline-primary' @click="hideForm">

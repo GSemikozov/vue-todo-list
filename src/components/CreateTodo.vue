@@ -10,11 +10,11 @@
       <form>
         <div class='form-group'>
           <label>Title</label>
-          <input v-model="titleText" type='text' class='form-control'>
+          <input v-model="titleText" type='text' class='form-control' required>
         </div>
         <div class='form-group'>
           <label>Description</label>
-          <input v-model="descriptionText" type='text' class='form-control'>
+          <input v-model="descriptionText" type='text' class='form-control' required>
         </div>
         <div>
           <button class='btn btn-success' @click="sendForm()">
